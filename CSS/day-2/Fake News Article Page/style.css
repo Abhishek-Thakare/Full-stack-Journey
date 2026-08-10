@@ -1,0 +1,57 @@
+h1{
+ text-transform: uppercase;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+ text-decoration: underline;
+   background-color: black;
+   border: 4px;
+   text-align: center;
+   color:purple;
+}
+
+h2{
+   font-size: 30px; 
+   text-align: center;
+   color: red;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Date{
+   font-size: smaller;
+   font-style: italic;
+   color: aqua;
+   background-color:black;
+}
+.article-content{
+   font-family: sans-serif;
+   font-size: medium;
+   font-weight: 600;
+   line-height: 1.2;
+}
+p {
+    color: blue;
+}
+
+.article-content {
+    color: green;
+}
+
+main article p {
+    color: red;
+}
+
+#main-story{
+   color:red;
+}
+
+#main-story{
+   color:purple;
+}
+
+
+.article-content {
+    color: green;
+}
+
+.article-content {
+    color: orange;
+}
+
