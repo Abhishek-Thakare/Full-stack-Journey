@@ -15,31 +15,52 @@
         align-items: center;
         
     }
+    .navigation ul{
+        display:flex;
+        gap: 15px;
+        list-style-type: none;
+    }
+    .navigation li::before{
+           margin-right: 5px;
+    }
+    .navigation li:nth-child(1)::before{
+        content:"🏠"
+    }
+    .navigation li:nth-child(2)::before{
+        content: "🛍️";
+    }
+    .navigation li:nth-child(3)::before{
+        content: "💡";
+    }
+    .navigation li:nth-child(4)::before{
+        content: "📞";
+    }
+
+
     .navigation{
         margin: 5px;
         padding: 2px;
-        display: flex;
+        
         justify-content: space-between;
+       
+        
     }
-    .cart{
-        margin: 5px;
-        padding: 2px;
-        justify-content: space-between;
-
-    }
+    
 </style>
 
 <body>
     <header class="logo">
         <h2>ShopEasy</h2>
         <nav class="navigation">
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <ul><li> <a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+    </ul>
+        
         </nav>
 
-        <button class="cart" type="button">Cart</button>
+        <button  type="button">🛒Cart</button>
 
     </header>
 </body>
